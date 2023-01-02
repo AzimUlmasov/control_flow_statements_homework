@@ -14,16 +14,16 @@ def main(temp):
         string: the message to print
     """
     if temp<0:
-        return 'Freezing'
+        return "Freezing"
     elif temp > 0 and temp <= 10:
-        return 'Very Cold'
+        return "Very Cold"
     elif temp > 10 and temp <= 20:
-        return 'Cold'
+        return "Cold"
     elif temp > 20 and temp <= 30:
-        return 'Normal'
+        return "Normal"
     elif temp > 30 and temp <= 40:
-        return 'Hot'
+        return "Hot"
     elif temp>40:
-        return 'Very hot'
+        return "Very hot"
 
-print(main(-4))
+print(main(21))
