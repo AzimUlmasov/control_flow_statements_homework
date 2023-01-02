@@ -13,7 +13,7 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    if temp<0:
+    if temp < 0:
         out = "Freezing"
     if temp > 0 and temp <= 10:
         out = "Very Cold"
@@ -23,8 +23,8 @@ def main(temp):
         out = "Normal"
     if temp > 30 and temp <= 40:
         out = "Hot"
-    if temp>40:
-        out = "Very hot"
+    if temp > 40:
+        out = "Very Hot"
     return out
 
 print(main(21))
